@@ -5,16 +5,16 @@ The following directory contains example klipper configurations for various 3D p
 1. It is assumed that you already have klipper installed on a host (e.g. Raspberry Pi) before proceeding.  
 1. Log on to the your klipper installed host and run the following commands: 
 ```
-    cd ~/klipper  
-    make menuconfig  
+cd ~/klipper  
+make menuconfig  
 ```
 1. In the configurator interface, enable `extra low-level configuration options`, choose `Micro-controoler Architecture (STMicroelectronics STM32)`, 
 `Processor model (STM32F446)`, `Bootloader offset (No Bootloader)`, `Clock Reference (12 Mhz crystal)`, `Communication interface (USB (on PA11/PA12))`  
 
 1. Exit the interface by typing "Q", save when prompted, then run the following commands:
 ```
-    make clean  
-    make  
+make clean  
+make  
 ```
 1. A firmware file called `klipper.bin` will now be generated and can be located in the directory `~/klipper/out`.
 
@@ -28,11 +28,11 @@ This method can be used if your leviathan already has klipper firmware installed
 1. follow the steps in [Firmware Compilation](#firmware-compilation) to make sure the configurator is correctly configured. 
 1. Run the following commands, which will automatically compile, and then upload the firmware to the MCU directly:
 ```
-    cd ~/klipper  
-    make clean  
-    sudo service klipper stop  
-    make flash FLASH_DEVICE=/dev/serial/by-id/<your USB ID>  
-    sudo service klipper start  
+cd ~/klipper  
+make clean  
+sudo service klipper stop  
+make flash FLASH_DEVICE=/dev/serial/by-id/<your USB ID>  
+sudo service klipper start  
 ```
 1. If the installation was successful you should see `File downloaded successfully` somewhere among the text that was spit out.
 
@@ -45,9 +45,9 @@ This method can be used even if there is no firmware installed on your leviathan
 1. follow the steps in [Firmware Compilation](#firmware-compilation) to make sure the configurator is correctly configured. 
 1. Run the following commands, which will automatically compile, and then upload the firmware to the MCU directly:
 ```
-    cd ~/klipper  
-    make clean  
-    make flash FLASH_DEVICE=xxxx:yyyy
+cd ~/klipper  
+make clean  
+make flash FLASH_DEVICE=xxxx:yyyy
 ```
 1. If the upload was successful, you should be able to see the leviathan USB ID by running `ls /dev/serial/by-id/`  
     
