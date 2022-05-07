@@ -14,10 +14,10 @@ The Voron Leviathan is collaboration between JNP and the team at LDO to create a
 ## Electrical Specifications
 | Parameter          |  Minimum | Typical | Maximum | Unit | Comments |
 | --------------     | -------- | ------- | ------- |----- | -------- |
-| Main Power Input   |          |   24    |         |  V   | Supply voltage for the entire PCB except for HV stepper drivers |
-| HV Power Input     |          |   48    |         |  V   | Supply voltage for the HV stepper drivers |
-| RPi Power Out      |          |         |         |  A   | Current rating of Raspberry Power supply output |
-| Heater Current     |          |         |         |  A   | Current rating of each hotend/heater mosfet |
-| Fan Current        |          |         |         |  A   | Current rating of each fan mosfet |
-| Stepper Current    |          |         |         |  A   | Current rating of each TMC2209 stepper driver |
-| HV Stepper Current |          |         |         |  A   | Current rating of each TMC5160 stepper driver |
+| Main Power Input   |    18    |   24    |    28   |  V   | Supply voltage for the entire PCB except for HV stepper drivers |
+| HV Power Input     |    24    |   48    |    55   |  V   | Supply voltage for the HV stepper drivers |
+| RPi Power Out      |          |         |     3   |  A   | Current rating of Raspberry Power supply output |
+| Heater Current     |          |         |  6/12.5 |  A   | Current rating of each hotend/heater mosfet |
+| Fan Current        |          |         |    0.5  |  A   | Current rating of each fan mosfet |
+| Stepper Current    |          |         |     2   |  A   | Current rating of each TMC2209 stepper driver |
+| HV Stepper Current |          |         |     4   |  A   | Current rating of each TMC5160 stepper driver |
