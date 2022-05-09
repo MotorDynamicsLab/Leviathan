@@ -12,12 +12,19 @@ The Voron Leviathan is collaboration between JNP and the team at LDO to create a
 - Dedicated power supply and uart port for Raspberry Pi
 
 ## Electrical Specifications
-| Parameter          |  Minimum | Typical | Maximum | Unit | Comments |
-| --------------     | -------- | ------- | ------- |----- | -------- |
-| Main Power Input   |    18    |   24    |    28   |  V   | Supply voltage for the entire PCB except for HV stepper drivers |
-| HV Power Input     |    24    |   48    |    55   |  V   | Supply voltage for the HV stepper drivers |
-| RPi Power Out      |          |         |     3   |  A   | Current rating of Raspberry Power supply output |
-| Heater Current     |          |         |  6/12.5 |  A   | Current rating of each hotend/heater mosfet |
-| Fan Current        |          |         |    0.5  |  A   | Current rating of each fan mosfet |
-| Stepper Current    |          |         |     2   |  A   | Current rating of each TMC2209 stepper driver |
-| HV Stepper Current |          |         |     4   |  A   | Current rating of each TMC5160 stepper driver |
+| Parameter                 | Symbol             |  Min  | Typ   | Max   | Unit | Comments |
+| --------------            | ------------------ | ----- | ----- | ----- |----- | -------- |
+| Main Supply Voltage       | V<sub>in</sub>     | 18    | 24    | 28    |  V   | Supply voltage for the entire PCB except for HV stepper drivers |
+| HV Stepper Supply Voltage | V<sub>HV</sub>     | 24    | 48    | 55    |  V   | Supply voltage for the HV stepper drivers |
+| RPi Supply Out            | I<sub>RPI</sub>    |       |       | 3     |  A   | Current rating of Raspberry Power supply output |
+| Hotend Current            | I<sub>he</sub>     |       |       | 6     |  A   | Current rating of hotend channel |
+| Heatbed Current           | I<sub>hb</sub>     |       |       | 12.5  |  A   | Current rating of heatbed channel |
+| Fan Current               | I<sub>fan</sub>    |       |       | 0.5   |  A   | Current rating per fan channel |
+| Stepper Current           | I<sub>mot</sub>    |       |       | 2     |  A   | Current rating of each TMC2209 stepper channel |
+| HV Stepper Current        | I<sub>hv_mot</sub> |       |       | 4     |  A   | Current rating of each TMC5160 stepper driver |
+| Neopixel Current          | I<sub>rgb</sub>    |       |       | 0.5   |  A   | Current rating Neopixel port |
+| LED-Strip Current         | I<sub>led</sub>    |       | 0.3   |       |  A   | Current rating of LED strip |
+| Endstop IO Level          | V<sub>stop</sub>   |       |       | 3.3   |  V   | Logic level of endstop input |
+| Filament Sensor IO Level  | V<sub>fil</sub>    |       |       | 3.3   |  V   | Logic level of filament sensor input |
+| SWD IO Level              | V<sub>SWD</sub>    |       |       | 3.3   |  V   | Logic level of SWD port input |
+| Thermistor Level          | V<sub>th</sub>     |       |       | 3.3   |  V   | ADC level of thermistor input |
