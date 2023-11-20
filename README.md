@@ -1,19 +1,21 @@
 # Voron Leviathan
 The Voron Leviathan is collaboration between JNP and the team at LDO to create a controller board specific for the needs of Voron 3D printers. It features: 
 - STM32F446 Microcontroller at 180Mhz clock speed. 
-- Five integrated TMC2209 stepper drivers. 
-- Two integrated 48V rated TMC5160 stepper drivers. 
-- Four fan ports with flyback protection, 5V/24V selectable voltage, and tachometer inputs. 
-- Four thermistor ports with 2k2 ohm pullup resistors. 
-- Dedicated LED strip with flicker free dimming down to 1%.
-- Neopixel port.
-- Hotend power output up to 150W. 
-- Heaterbed power output up to 300W
-- Dedicated Z probe port with selectable voltage and integrated diode.
-- Three endstop ports and a filament sensor port 
 - Reverse polarity protection for main power supply and HV Stepper supply input
+- Superior stepper driver cooling (passive)
 - Dedicated mounting space for a Raspberry Pi 3,4, or Zero 2W
 - Dedicated power supply and uart port for Raspberry Pi
+- 5x integrated TMC2209 stepper drivers. 
+- 2x integrated 48V rated TMC5160 stepper drivers. 
+- 4x fan ports with flyback protection, 5V/24V selectable voltage, and tachometer inputs. 
+- 4x thermistor ports with 2k2 ohm pullup resistors. 
+- 1x Dedicated LED strip with flicker free dimming down to 1%.
+- 1x Neopixel port.
+- 1x Hotend power output up to 150W. 
+- 1x Hotbed power output up to 300W
+- 1x Dedicated Z probe port with selectable voltage and integrated diode.
+- 3x endstop ports and a filament sensor port 
+
 
 ## Electrical Specifications
 | Parameter                 | Symbol             |  Min  | Typ   | Max   | Unit | Comments |
@@ -28,7 +30,5 @@ The Voron Leviathan is collaboration between JNP and the team at LDO to create a
 | HV Stepper Current        | I<sub>hv_mot</sub> |       |       | 4     |  A   | Current rating of each TMC5160 stepper driver |
 | Neopixel Current          | I<sub>rgb</sub>    |       |       | 0.5   |  A   | Current rating Neopixel port |
 | LED-Strip Current         | I<sub>led</sub>    |       | 0.3   |       |  A   | Current rating of LED strip |
-| Endstop IO Level          | V<sub>stop</sub>   |       |       | 3.3   |  V   | Logic level of endstop input |
-| Filament Sensor IO Level  | V<sub>fil</sub>    |       |       | 3.3   |  V   | Logic level of filament sensor input |
-| SWD IO Level              | V<sub>SWD</sub>    |       |       | 3.3   |  V   | Logic level of SWD port input |
-| Thermistor Level          | V<sub>th</sub>     |       |       | 3.3   |  V   | ADC level of thermistor input |
+| Endstop IO Level          | V<sub>stop</sub>   |       | 3.3   | 5.0   |  V   | Logic level of endstop input |
+| Filament Sensor IO Level  | V<sub>fil</sub>    |       | 3.3   | 5.0   |  V   | Logic level of filament sensor input |
