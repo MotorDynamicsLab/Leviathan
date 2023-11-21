@@ -1,3 +1,5 @@
+![Leviathan_Mainboard](/Media/product_img_web2.jpg "Leviathan Mainboard")
+
 # Voron Leviathan
 The Voron Leviathan is collaboration between JNP and the team at LDO to create a controller board specific for the needs of Voron 3D printers. It features: 
 - STM32F446 Microcontroller at 180Mhz clock speed. 
