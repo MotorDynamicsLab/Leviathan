@@ -5,16 +5,16 @@ The Voron Leviathan is collaboration between JNP and the team at LDO to create a
 - Superior stepper driver cooling (passive)
 - Dedicated mounting space for a Raspberry Pi 3,4, or Zero 2W
 - Dedicated power supply and uart port for Raspberry Pi
-- 5x integrated TMC2209 stepper drivers. 
-- 2x integrated 48V rated TMC5160 stepper drivers. 
-- 4x fan ports with flyback protection, 5V/24V selectable voltage, and tachometer inputs. 
-- 4x thermistor ports with 2k2 ohm pullup resistors. 
+- 5x Integrated TMC2209 stepper drivers. 
+- 2x Integrated 48V rated TMC5160 stepper drivers. 
+- 4x Fan ports with flyback protection, 5V/24V selectable voltage, and tachometer inputs. 
+- 4x Thermistor ports with 2k2 ohm pullup resistors. 
 - 1x Dedicated LED strip with flicker free dimming down to 1%.
 - 1x Neopixel port.
-- 1x Hotend power output up to 150W. 
-- 1x Hotbed power output up to 300W
+- 1x Hotend power output up to 180W. 
+- 1x Hotbed power output up to 240W
 - 1x Dedicated Z probe port with selectable voltage and integrated diode.
-- 3x endstop ports and a filament sensor port 
+- 3x Endstop ports and a filament sensor port 
 
 
 ## Electrical Specifications
