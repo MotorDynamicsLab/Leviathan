@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "Leviathan")(type "KiCad")(uri "${KIPRJMOD}/Leviathan.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+  (lib (name "Leviathan_V1.2")(type "KiCad")(uri "${KIPRJMOD}/Leviathan_V1.2.pretty")(options "")(descr ""))
+)

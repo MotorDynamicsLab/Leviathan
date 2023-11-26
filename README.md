@@ -1,7 +1,7 @@
 ![Leviathan_Mainboard](/Media/product_img_web2.jpg "Leviathan Mainboard")
 
 # Voron Leviathan
-The Voron Leviathan is collaboration between JNP and the team at LDO to create a controller board specific for the needs of Voron 3D printers. It features: 
+The Voron Leviathan V1.2 is collaboration between JNP and the team at LDO to create a controller board specific for the needs of Voron 3D printers. It features: 
 - STM32F446 Microcontroller at 180Mhz clock speed. 
 - Reverse polarity protection for main power supply and HV Stepper supply input
 - Superior stepper driver cooling (passive)
@@ -25,12 +25,12 @@ The Voron Leviathan is collaboration between JNP and the team at LDO to create a
 | Main Supply Voltage       | V<sub>in</sub>     | 18    | 24    | 28    |  V   | Supply voltage for the entire PCB except for HV stepper drivers |
 | HV Stepper Supply Voltage | V<sub>HV</sub>     | 24    | 48    | 55    |  V   | Supply voltage for the HV stepper drivers |
 | RPi Supply Out            | I<sub>RPI</sub>    |       |       | 3     |  A   | Current rating of Raspberry Power supply output |
-| Hotend Current            | I<sub>he</sub>     |       |       | 6     |  A   | Current rating of hotend channel |
-| Heatbed Current           | I<sub>hb</sub>     |       |       | 12.5  |  A   | Current rating of heatbed channel |
+| Hotend Current            | I<sub>he</sub>     |       |       | 7.5   |  A   | Current rating of hotend channel |
+| Heatbed Current           | I<sub>hb</sub>     |       |       | 10    |  A   | Current rating of heatbed channel |
 | Fan Current               | I<sub>fan</sub>    |       |       | 0.5   |  A   | Current rating per fan channel |
 | Stepper Current           | I<sub>mot</sub>    |       |       | 2     |  A   | Current rating of each TMC2209 stepper channel |
-| HV Stepper Current        | I<sub>hv_mot</sub> |       |       | 4     |  A   | Current rating of each TMC5160 stepper driver |
+| HV Stepper Current        | I<sub>hv_mot</sub> |       |       | 3     |  A   | Current rating of each TMC5160 stepper driver |
 | Neopixel Current          | I<sub>rgb</sub>    |       |       | 0.5   |  A   | Current rating Neopixel port |
-| LED-Strip Current         | I<sub>led</sub>    |       | 0.3   |       |  A   | Current rating of LED strip |
+| LED-Strip Current         | I<sub>led</sub>    |       | 0.35  |       |  A   | Current rating of LED strip |
 | Endstop IO Level          | V<sub>stop</sub>   |       | 3.3   | 5.0   |  V   | Logic level of endstop input |
 | Filament Sensor IO Level  | V<sub>fil</sub>    |       | 3.3   | 5.0   |  V   | Logic level of filament sensor input |
