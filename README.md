@@ -5,7 +5,7 @@ The Voron Leviathan V1.2 is collaboration between JNP and the team at LDO to cre
 - STM32F446 Microcontroller at 180Mhz clock speed. 
 - Reverse polarity protection for main power supply and HV Stepper supply input
 - Superior stepper driver cooling (passive)
-- Dedicated mounting space for a Raspberry Pi 3,4, or Zero 2W
+- Dedicated mounting space for a Raspberry Pi 3,4,5 or Zero 2W
 - Dedicated power supply and uart port for Raspberry Pi
 - 5x Integrated TMC2209 stepper drivers. 
 - 2x Integrated 48V rated TMC5160 stepper drivers. 
