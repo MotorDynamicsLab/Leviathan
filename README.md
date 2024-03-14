@@ -18,6 +18,8 @@ The Voron Leviathan V1.2 is collaboration between JNP and the team at LDO to cre
 - 1x Dedicated Z probe port with selectable voltage and integrated diode.
 - 3x Endstop ports and a filament sensor port 
 
+## Setup Guide
+https://ldomotion.com/p/guide/VORON-Leviathan-V12
 
 ## Electrical Specifications
 | Parameter                 | Symbol             |  Min  | Typ   | Max   | Unit | Comments |
