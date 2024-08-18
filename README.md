@@ -1,4 +1,4 @@
-![Leviathan_Mainboard](/Media/product_img_web2.jpg "Leviathan Mainboard")
+![Leviathan_Mainboard](/Media/product_img_web2.avif "Leviathan Mainboard")
 
 # Voron Leviathan
 The Voron Leviathan V1.2 is collaboration between JNP and the team at LDO to create a controller board specific for the needs of Voron 3D printers. It features: 
